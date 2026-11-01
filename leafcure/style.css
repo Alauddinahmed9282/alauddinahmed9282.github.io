@@ -13,6 +13,7 @@ body {
   background: var(--cream);
   color: var(--ink);
   font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-wrap: break-word;
 }
 a { color: var(--leaf); }
 .hero {
@@ -25,6 +26,10 @@ a { color: var(--leaf); }
 .hero h1 { margin: 16px 0 0; font-size: 40px; }
 .hero .tag { margin: 0 0 12px; color: var(--sage); font-weight: 600; }
 .hero p { max-width: 560px; margin: 0 auto; }
+.hero .studio { display: block; max-width: 720px; margin: -36px auto 12px; padding: 12px 0; text-align: left; color: var(--sage); font-size: 15px; font-weight: 600; text-decoration: none; }
+.hero .store { display: inline-block; margin-top: 18px; padding: 10px 20px; border: 1px solid rgba(255,255,255,.6); border-radius: 14px; color: #fff; font-weight: 700; text-decoration: none; }
+.hero .store svg { width: 20px; height: 20px; vertical-align: -4px; }
+.hero .store.off { opacity: .8; font-weight: 600; }
 main, .page { max-width: 720px; margin: 0 auto; padding: 24px 16px; }
 h2 { color: var(--leaf-dark); margin-top: 32px; }
 ul { padding-left: 20px; }
@@ -44,5 +49,6 @@ footer {
   font-size: 14px;
   padding: 24px 16px 40px;
 }
+footer a { display: inline-block; padding: 12px 4px; }
 .page h1 { color: var(--leaf-dark); margin-bottom: 4px; }
 .updated { color: var(--muted); margin-top: 0; }
