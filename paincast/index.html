@@ -1,96 +1,85 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paincast: Barometric Pressure Alerts &amp; Pain Diary</title>
-<meta name="description" content="Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.">
-<link rel="stylesheet" href="style.css">
-<!-- seo -->
-<link rel="canonical" href="https://alauddinahmed9282.github.io/paincast/">
-<link rel="icon" href="../assets/favicon.png">
-<meta name="theme-color" content="#4B4A9E">
-<meta property="og:title" content="Paincast: Barometric Pressure Alerts &amp; Pain Diary">
-<meta property="og:description" content="Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.">
-<meta property="og:image" content="https://alauddinahmed9282.github.io/paincast/icon.png">
-<meta property="og:url" content="https://alauddinahmed9282.github.io/paincast/">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Paincast: Barometric Pressure Alerts & Pain Diary", "description": "Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.", "url": "https://alauddinahmed9282.github.io/paincast/", "image": "https://alauddinahmed9282.github.io/paincast/icon.png", "applicationCategory": "WeatherApplication", "operatingSystem": "Android, iOS", "publisher": {"@type": "Organization", "name": "Alauddin Studio", "url": "https://alauddinahmed9282.github.io/"}}</script>
-<!-- /seo -->
+  <meta charset="utf-8">
+  <script>document.documentElement.className = "js";</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Paincast: Barometric Pressure Alerts &amp; Pain Diary</title>
+  <meta name="description" content="Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.">
+  <meta name="theme-color" content="#4B4A9E">
+  <meta property="og:title" content="Paincast: Barometric Pressure Alerts &amp; Pain Diary">
+  <meta property="og:description" content="Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.">
+  <meta property="og:image" content="https://alauddinahmed9282.github.io/paincast/icon.png">
+  <meta property="og:url" content="https://alauddinahmed9282.github.io/paincast/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://alauddinahmed9282.github.io/paincast/">
+  <link rel="icon" href="../assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css?v=1c7d1159">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <style>:root { --c1: #4B4A9E; --c2: #B9B3F0; --bg: #F3F3FC; }</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Paincast: Barometric Pressure Alerts & Pain Diary", "description": "Paincast warns you 24–48 hours before big air pressure changes and keeps a simple pain diary, so you can plan around the weather.", "url": "https://alauddinahmed9282.github.io/paincast/", "image": "https://alauddinahmed9282.github.io/paincast/icon.png", "applicationCategory": "WeatherApplication", "operatingSystem": "Android, iOS", "publisher": {"@type": "Organization", "name": "Alauddin Studio", "url": "https://alauddinahmed9282.github.io/"}}</script>
 </head>
-<body>
-<header class="hero">
-  <a class="studio" href="../">← Alauddin Studio</a>
-  <img class="icon" src="icon.png" alt="" width="96" height="96">
-  <h1>Paincast</h1>
-  <p class="tag">Know before the weather hits</p>
-  <p>Paincast watches the air pressure where you live and tells you 24–48 hours before a big change, so you can plan your day.</p>
-  <!-- store --><span class="store off">Coming soon</span><!-- /store -->
-</header>
+<body class="app-page" data-particles='["☁️", "💧"]'>
+  <div class="sky" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+  <div class="particles" aria-hidden="true"></div>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="../"><span class="brand-mark"><img src="../assets/logo-icon.svg" alt="" width="36" height="36"></span><span>Alauddin Studio</span></a>
+      <nav class="nav"><a href="#features">Features</a><a href="#help">Help</a><a href="#contact">Contact</a></nav>
+    </header>
 
-<main>
-  <section>
-    <h2>What it does</h2>
-    <ul>
-      <li>Today at a glance: calm, changing or a big change ahead</li>
-      <li>9-day air pressure forecast with the big changes marked</li>
-      <li>Early alerts before big pressure drops and rises, plus a morning summary</li>
-      <li>A one-tap pain diary for headaches, migraine, joint pain and more</li>
-      <li>Your own pattern: how your entries line up with pressure changes</li>
-      <li>English, Deutsch, Français, Español, 日本語, Português</li>
-    </ul>
-  </section>
+    <section class="hero game-hero">
+      <div class="hero-text">
+        <div class="title-row"><img class="app-icon" src="icon.png" alt="" width="256" height="256"><span class="badge soon"><span class="dot"></span>Coming soon</span></div>
+        <h1>Paincast</h1>
+        <p class="app-tag">Know before the weather hits</p>
+        <p>Paincast watches the air pressure where you live and tells you 24–48 hours before a big change, so you can plan your day.</p>
+        <div class="cta-row"><span class="btn ghost disabled">🌱 Coming soon</span><a class="btn ghost" href="#features">See what it does</a></div>
+      </div>
+      <div class="hero-visual"><div class="icon-stage big"><div class="ring"></div><img src="icon.png" alt="Paincast icon" width="256" height="256"></div></div>
+    </section>
 
-  <section>
-    <h2>Help</h2>
-    <details>
-      <summary>Is Paincast medical advice?</summary>
-      <p>No. Paincast shows weather forecasts and compares them with your own diary. It does not diagnose, treat or prevent any condition. If your pain is new, severe or getting worse, see a doctor.</p>
-    </details>
-    <details>
-      <summary>Where does the weather data come from?</summary>
-      <p>From MET Norway (the Norwegian Meteorological Institute), under the CC BY 4.0 licence. It covers the whole world.</p>
-    </details>
-    <details>
-      <summary>Why didn't I get an alert?</summary>
-      <p>Check that notifications are allowed for Paincast in your phone's settings and that alerts are on in Paincast → Settings. Alerts are planned from the latest forecast, so open the app now and then to keep them up to date.</p>
-    </details>
-    <details>
-      <summary>What is free and what is Premium?</summary>
-      <p>Free: today's status, the next 48 hours, the diary and a morning summary. Premium adds the 9-day forecast, early alerts, your full pattern, several places and diary export.</p>
-    </details>
-    <details>
-      <summary>How do I cancel my subscription?</summary>
-      <p><b>iPhone:</b> Settings → your name → Subscriptions → Paincast → Cancel Subscription.<br>
-      <b>Android:</b> Google Play → profile icon → Payments &amp; subscriptions → Subscriptions → Paincast → Cancel.<br>
-      Cancel at least 24 hours before the end of the period to avoid the next charge. Deleting the app does not cancel the subscription.</p>
-    </details>
-    <details>
-      <summary>I bought Premium but the app still asks me to pay.</summary>
-      <p>Open Settings and tap <b>Restore purchases</b>, using the same Apple ID or Google account you paid with. If that does not help, email us.</p>
-    </details>
-    <details>
-      <summary>How do I get a refund?</summary>
-      <p>Payments are handled by Apple and Google, so refunds are too. iPhone: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Android: Google Play → Payments &amp; subscriptions → Budget &amp; history, or the Google Play Help Center.</p>
-    </details>
-    <details>
-      <summary>How do I delete my data?</summary>
-      <p>Paincast → Settings → Delete all my data, or delete the app. Your diary is only on your phone; we have no account for you.</p>
-    </details>
-  </section>
+    <section class="about" id="features">
+      <div class="section-head reveal"><span class="eyebrow">What it does</span><h2>Everything in one simple app</h2></div>
+      <div class="feats"><div class="feat reveal" style="--d:0.00s"><span class="feat-ic">🌤️</span><b>Today at a glance</b><span>Calm, changing or a big change ahead.</span></div><div class="feat reveal" style="--d:0.07s"><span class="feat-ic">📈</span><b>9-day forecast</b><span>A 9-day air pressure forecast with the big changes marked.</span></div><div class="feat reveal" style="--d:0.14s"><span class="feat-ic">🔔</span><b>Early alerts</b><span>Alerts before big pressure drops and rises, plus a morning summary.</span></div><div class="feat reveal" style="--d:0.21s"><span class="feat-ic">📝</span><b>One-tap pain diary</b><span>For headaches, migraine, joint pain and more.</span></div><div class="feat reveal" style="--d:0.28s"><span class="feat-ic">🧭</span><b>Your own pattern</b><span>See how your entries line up with pressure changes.</span></div><div class="feat reveal" style="--d:0.35s"><span class="feat-ic">🌍</span><b>Six languages</b><span>English, Deutsch, Français, Español, 日本語, Português.</span></div></div>
+    </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Questions, bugs or ideas: <a href="mailto:alauddinahmed7888@gmail.com?subject=Paincast">alauddinahmed7888@gmail.com</a><br>
-    We usually reply within 2 days.</p>
-  </section>
-</main>
+    <section class="about" id="how">
+      <div class="section-head reveal"><span class="eyebrow">How it works</span><h2>Three easy steps</h2></div>
+      <div class="feats three"><div class="feat reveal" style="--d:0.00s"><span class="feat-ic step-no">1</span><b>Add your place</b><span>Paincast watches the air pressure where you live.</span></div><div class="feat reveal" style="--d:0.07s"><span class="feat-ic step-no">2</span><b>Get an early alert</b><span>Hear about a big change 24–48 hours ahead.</span></div><div class="feat reveal" style="--d:0.14s"><span class="feat-ic step-no">3</span><b>Keep your diary</b><span>Log how you feel in one tap and see your own pattern.</span></div></div>
+    </section>
 
-<footer>
-  <a href="privacy.html">Privacy Policy</a> ·
-  <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a><br>
-  Weather data: MET Norway (CC BY 4.0) · © 2026 Alauddin Studio
-</footer>
+    <section class="about" id="help">
+      <div class="section-head reveal"><span class="eyebrow">Help</span><h2>Questions and answers</h2></div>
+      <div class="faqs"><details class="faq"><summary>Is Paincast medical advice?</summary><p>No. Paincast shows weather forecasts and compares them with your own diary. It does not diagnose, treat or prevent any condition. If your pain is new, severe or getting worse, see a doctor.</p></details><details class="faq"><summary>Where does the weather data come from?</summary><p>From MET Norway (the Norwegian Meteorological Institute), under the CC BY 4.0 licence. It covers the whole world.</p></details><details class="faq"><summary>Why didn&#x27;t I get an alert?</summary><p>Check that notifications are allowed for Paincast in your phone's settings and that alerts are on in Paincast → Settings. Alerts are planned from the latest forecast, so open the app now and then to keep them up to date.</p></details><details class="faq"><summary>What is free and what is Premium?</summary><p>Free: today's status, the next 48 hours, the diary and a morning summary. Premium adds the 9-day forecast, early alerts, your full pattern, several places and diary export.</p></details><details class="faq"><summary>How do I cancel my subscription?</summary><p><b>iPhone:</b> Settings → your name → Subscriptions → Paincast → Cancel Subscription.<br><b>Android:</b> Google Play → profile icon → Payments &amp; subscriptions → Subscriptions → Paincast → Cancel.<br>Cancel at least 24 hours before the end of the period to avoid the next charge. Deleting the app does not cancel the subscription.</p></details><details class="faq"><summary>I bought Premium but the app still asks me to pay.</summary><p>Open Settings and tap <b>Restore purchases</b>, using the same Apple ID or Google account you paid with. If that does not help, email us.</p></details><details class="faq"><summary>How do I get a refund?</summary><p>Payments are handled by Apple and Google, so refunds are too. iPhone: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Android: Google Play → Payments &amp; subscriptions → Budget &amp; history, or the Google Play Help Center.</p></details><details class="faq"><summary>How do I delete my data?</summary><p>Paincast → Settings → Delete all my data, or delete the app. Your diary is only on your phone; we have no account for you.</p></details></div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+      <span class="why-ic big">💌</span>
+      <h2>Contact us</h2>
+      <p>Questions, bugs or ideas? We usually reply within 2 days.</p>
+      <a class="btn" href="mailto:alauddinahmed7888@gmail.com?subject=Paincast">Email us</a>
+    </section>
+
+    <section class="more">
+      <div class="section-head reveal"><span class="eyebrow">More from Alauddin Studio</span><h2>Keep exploring</h2></div>
+      <div class="minis"><a class="mini" href="../leafcure/" style="--c1:#1F5C45"><img src="../leafcure/icon.png" alt="" loading="lazy" width="256" height="256"><span>Leafcure</span></a><a class="mini" href="../" style="--c1:#2B2A6B"><img src="../assets/logo-512.png" alt="" loading="lazy" width="256" height="256"><span>All games and apps</span></a></div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <a class="brand" href="../"><span class="brand-mark"><img src="../assets/logo-icon.svg" alt="" width="36" height="36"></span><span>Alauddin Studio</span></a>
+        <p>Little ideas, a touch of magic.</p>
+      </div>
+      <div class="foot-links one"><div><b>Paincast</b><a href="privacy.html">Privacy Policy</a><a href="#help">Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a></div></div><p class="made">Made in Bangladesh by Alauddin Studio</p><p class="credit">Weather data: MET Norway (CC BY 4.0)</p>
+      <p class="copy">© 2026 <a href="https://alauddinahmed9282.github.io/">Alauddin Studio</a> · <a href="mailto:alauddinahmed7888@gmail.com">alauddinahmed7888@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="../assets/app.js?v=1c7d1159"></script>
 </body>
 </html>
