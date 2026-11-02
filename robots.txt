@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://alauddinahmed9282.github.io/sitemap.xml
